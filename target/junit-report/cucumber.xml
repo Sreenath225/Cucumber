@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.363" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Get One user" name="Get user Details" time="5.489">
+<system-out><![CDATA[
+Given a user should be on ApiPage...........................................passed
+When a user retrieved.......................................................passed
+Then validate the outcomes status code is 200...............................passed
+And check outcomes response with following..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality of Tricentis" name="To Test the Login Functionality of Tricentis" time="4.658">
+<system-out><![CDATA[
+Given I am on the after login home page.....................................passed
+When I click on the login link..............................................passed
+And I will enter the "sample@gmail.com" in Email tab........................passed
+And I will enter the "sample123" in Password tab............................passed
+And I will click on the Login button........................................passed
+Then It should get login and show "success".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Functionality of Tricentis" name="To test the Search Functionality of Tricentis Search bar" time="3.991">
+<system-out><![CDATA[
+Given I am on the home page.................................................passed
+When I type "science" in search textbox.....................................passed
+And I click on the search button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
